@@ -1,0 +1,14 @@
+sqlalchemy==2.0.36
+psycopg2-binary
+pandas
+statsmodels
+scipy
+matplotlib
+seaborn
+scikit-learn
+xgboost
+lightgbm
+networkx
+mlxtend
+plotly
+shap
