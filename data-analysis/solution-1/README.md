@@ -106,3 +106,17 @@ No significant association is found.
 #### ANOVA ANALYSIS
 ANOVA - Surgery Outcomes by Hospital:F-statistic: 1.0490, p-value: 0.3286
 No significant difference is found.
+
+### Ethical Implications and Mitigation Strategies
+
+**Key Ethical Challenges:**
+- **Statistical bias in demographic analysis** may perpetuate healthcare disparities if gender/age differences are misinterpreted as inherent rather than systemic
+- **Hospital performance comparisons** could unfairly penalize institutions serving vulnerable populations without accounting for case-mix complexity
+- **Cost-focused analysis** might prioritize economic efficiency over equitable care access
+
+**Mitigation Strategies:**
+- **Risk adjustment**: Control for patient complexity, socioeconomic factors, and comorbidities when comparing outcomes across hospitals
+- **Contextual interpretation**: Present statistical findings alongside qualitative factors (staffing levels, resource constraints, patient demographics)
+- **Inclusive decision-making**: Involve diverse clinical teams and patient representatives in interpreting results
+- **Transparency**: Make methodology and limitations explicit to prevent misuse of statistical findings
+- **Equity monitoring**: Regularly assess if data-driven decisions are reducing or exacerbating health inequalities across different patient groups

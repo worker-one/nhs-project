@@ -95,3 +95,19 @@ The model successfully identified patients requiring different levels of clinica
 SHAP (SHapley Additive exPlanations) analysis provided detailed insights into how individual features contribute to risk predictions, ensuring transparency and clinical interpretability of the machine learning models.
 
 For detailed visualizations and comprehensive analysis, see the full report at `./assets/report.html`.
+
+### Ethical Implications and Mitigation Strategies
+
+**Key Ethical Challenges:**
+- **Algorithmic bias** in risk predictions may discriminate against marginalized communities, creating unequal access to preventive care
+- **Self-fulfilling prophecies** where high-risk labels lead to differential treatment, potentially worsening outcomes for flagged patients
+- **Privacy concerns** from extensive data profiling for risk assessment
+- **Over-reliance on automation** may reduce clinical judgment and patient-centered care
+
+**Mitigation Strategies:**
+- **Bias testing**: Regularly audit model performance across demographic groups and adjust for disparities
+- **Fairness constraints**: Implement algorithmic fairness techniques to ensure equitable risk assessment across populations
+- **Human oversight**: Require clinical validation of high-risk predictions before implementing interventions
+- **Transparent communication**: Clearly explain risk scores to patients and obtain consent for predictive analytics
+- **Continuous monitoring**: Track real-world outcomes to detect unintended consequences and model drift
+- **Data governance**: Implement strict access controls and anonymization protocols for patient data protection

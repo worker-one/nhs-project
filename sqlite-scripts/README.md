@@ -28,14 +28,14 @@ pip install -r requirements.txt
 ### Run Database Initialization
 
 ```bash
-python init_db.py
+python sqlite-convert.py
 ```
 
 ## Output
 
 Upon successful execution, the script will generate:
 
-- `nhs_db.db` - The normalized SQLite database file
+- `nhs.db` - The normalized SQLite database file
 - Detailed processing logs displayed in the console
 - Data validation reports and statistics
 
